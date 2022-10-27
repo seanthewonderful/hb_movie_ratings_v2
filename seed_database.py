@@ -30,7 +30,7 @@ with open('data/movies.json') as f:
 model.db.session.add_all(movies)
 model.db.session.commit()
 
-for n in range(10):
+for n in range(1, 11):
     email = f"user{n}@test.com"
     password ="test"
     
